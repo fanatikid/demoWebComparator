@@ -1,0 +1,7 @@
+import demowebcomparator.Provider
+
+model {
+	Provider provider
+}
+
+json tmpl.provider(provider)

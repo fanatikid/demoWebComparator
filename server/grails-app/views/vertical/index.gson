@@ -1,0 +1,8 @@
+import demowebcomparator.Vertical
+
+model {
+	Iterable<Vertical> verticalList
+}
+
+json tmpl.vertical(verticalList ?: [])
+

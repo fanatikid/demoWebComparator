@@ -1,0 +1,8 @@
+import demowebcomparator.Provider
+
+model {
+	Iterable<Provider> providerList
+}
+
+json tmpl.provider(providerList ?: [])
+

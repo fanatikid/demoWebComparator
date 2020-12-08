@@ -1,0 +1,28 @@
+import demowebcomparator.Product
+
+model {
+	Product product
+}
+
+json {
+    id product.id
+    vertical product.vertical.name
+    provider product.provider.name
+    isSponsored product.isSponsored
+
+    numberPackages product.numberPackages
+    downloadSpeed product.downloadSpeed
+    uploadSpeed product.uploadSpeed
+    tvChannels product.tvChannels
+    mobileCount product.mobileCount
+    mobileDataCap product.mobileDataCap
+    price product.price
+
+    spreadPercentage product.spreadPercentage
+    taegPercentage product.taegPercentage
+    minLoanAmount product.minLoanAmount
+    maxLoanAmount product.maxLoanAmount
+    minTermMonths product.minTermMonths
+    maxTermMonths product.maxTermMonths
+    minIncome product.minIncome
+}

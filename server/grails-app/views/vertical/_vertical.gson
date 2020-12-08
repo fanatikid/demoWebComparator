@@ -1,0 +1,13 @@
+import demowebcomparator.Vertical
+
+model {
+	Vertical vertical
+}
+
+json {
+    id vertical.id
+
+    code vertical.code
+
+    name vertical.name
+}
